@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.logo{
+    background-image: url('../../Images/Logo.png');
+    background-size: contain;
+    mix-blend-mode: darken;
+    width: 500px;
+    height: 15vh;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.NavigationBar{
+    text-decoration: none;
+    padding-top: 1%;
+    
+    
+}
+
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.list:hover {
+    cursor: pointer;
+}
+
+.logoItem {
+    margin-left: auto;
+    margin-right: auto;
+}
