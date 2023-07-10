@@ -2,6 +2,11 @@
 
 PSD Project with React, Vite, and Material-UI (PSD-to-React)
 
+<div align="center">
+  <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-banner-templates.jpg" alt="Banner">
+</div>
+
+
 ## Description
 
 This project is a demonstration of how to convert a PSD (Photoshop Document) design into a fully functional React application using Vite as the build tool and Material-UI (MUI) as the UI component library.
