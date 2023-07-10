@@ -24,7 +24,7 @@ This project is a demonstration of how to convert a PSD (Photoshop Document) des
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/psd-project.git
+   git clone https://github.com/MohammadToumouk/psd-project.git
    ```
 
 2. Navigate to the project directory:
