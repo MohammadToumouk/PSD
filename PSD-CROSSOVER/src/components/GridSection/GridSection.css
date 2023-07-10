@@ -144,10 +144,11 @@
         min-height: 15vh;
         background-repeat: no-repeat;
         background-position: 0;
+        background-size: cover;
     }
     .aboutUs {
         margin: auto;
-        margin-top: 25rem;
+        margin-top: 30rem;
         width: 60%;
         color: black;
     }
@@ -163,10 +164,11 @@
         min-height: 15vh;
         background-repeat: no-repeat;
         background-position: 0;
+        background-size: cover;
     }
     .aboutUs {
         margin: auto;
-        margin-top: 70rem;
+        margin-top: 85rem;
         width: 60%;
         color: black;
     }
