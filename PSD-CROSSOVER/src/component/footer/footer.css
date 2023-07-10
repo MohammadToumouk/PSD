@@ -1,0 +1,15 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.bilder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap:5px ;
+}
+
+.bilder img{
+    width: 130px; 
+    height: 130px;
+}

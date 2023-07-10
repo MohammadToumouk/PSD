@@ -1,0 +1,130 @@
+
+.container-foot {
+    background-color: #0b0b0b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 1fr 50px 100px 100px;
+    grid-template-areas:
+    ". . ."
+     "Acount Logo contact"
+     ". socialmedia ."
+     ". copy ."
+     ". . .";
+}
+
+.Acount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: Acount;
+}
+
+input {
+    height: 30px;
+    background-color: black;
+    border: none;
+}
+
+button{
+    background-color: rgb(57, 56, 56);
+    width: 40px;
+    height: 30px;
+    color: rgba(240, 209, 209, 0.737);
+    border-color: #0b0b0b;
+}
+
+#Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: Logo;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.contact-me {
+    display: flex;
+    align-items:baseline;
+}
+
+.contact-me img {
+    margin-right: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    grid-area: socialmedia;
+    grid-column-gap: 10px ;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.737);
+}
+
+#copy {
+    grid-area: copy;
+}
+
+
+@media (max-width: 700px) {
+    .container-foot {
+        background-color: #0b0b0b;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30px 1fr 50px 100px 1fr ;
+        grid-template-areas:
+        ". . ."
+         "Acount Acount Acount"
+         ". logo ."
+         ". contact ."
+         "socialmedia . copy";
+    }
+    
+    .Acount{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: Acount;
+    }
+
+    #Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: Logo;
+    }
+    
+    .contact {
+        grid-area: contact;
+    }
+    
+    .contact-me {
+        display: flex;
+        align-items:baseline;
+    }
+    
+    .contact-me img {
+        margin-right: 20px;
+    }
+    
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        grid-area: socialmedia;
+        grid-column-gap: 10px ;
+    }
+    
+    #copy {
+    grid-area: copy;
+}
+}
+
+
+
