@@ -128,3 +128,46 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1200px) {
+    .grid-container-cards {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: repeat(6, 1fr); */
+        gap: 0.4rem;
+        min-height: 50vh;
+        width: 80%;
+        font-family: "metropolis";
+    }
+    .grid-item-cards {
+        min-height: 15vh;
+        background-repeat: no-repeat;
+        background-position: 0;
+    }
+    .aboutUs {
+        margin: auto;
+        margin-top: 25rem;
+        width: 60%;
+        color: black;
+    }
+}
+@media (max-width: 700px) {
+    .grid-container-cards {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .grid-item-cards {
+        min-height: 15vh;
+        background-repeat: no-repeat;
+        background-position: 0;
+    }
+    .aboutUs {
+        margin: auto;
+        margin-top: 70rem;
+        width: 60%;
+        color: black;
+    }
+}
