@@ -4,7 +4,7 @@ import Navbar from '../Nav/Navbar'
 const Hero = () => {
 
     return(
-        <div class="container">
+        <div class="container1">
             <div className='hero'>
             <Navbar />
             <div className='HeroText'>
